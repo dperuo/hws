@@ -1,0 +1,5 @@
+name: Highwire Shakespeare
+description: Shakespeare without the safety net
+markdown: redcarpet
+pygments: true
+permalink: none

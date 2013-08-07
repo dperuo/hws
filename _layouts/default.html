@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <div class="pure-g-r">
+      <div class="pure-u-1">
+
+        <header>
+          {% include header.html %}
+        </header>
+
+        <hr />
+
+        <section id="main_content">
+            {{ content }}
+        </section>
+
+        <footer>
+          {% include footer.html %}
+        </footer>
+
+      </div>
+    </div>
+  </body>
+
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+
+<script>
+    {% include analytics.html %}
+</script>
+
+</html>
