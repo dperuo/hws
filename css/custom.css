@@ -1,4 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Delius);
+h1, h2 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    line-height: 1.45em;
+}
+
+h1 {
+    font-size: 2.5em;
+} 
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+/* @import url(http://fonts.googleapis.com/css?family=Delius);
 
 body {
     background: transparent;
