@@ -1,3 +1,7 @@
+body {
+    padding: 0 10%;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -24,38 +28,7 @@ p {
     font-weight: 300;
 }
 
-/* @import url(http://fonts.googleapis.com/css?family=Delius);
 
-body {
-    background: transparent;
-    font-family: 'Delius', cursive;
-    line-height: 1.5em;
-    font-size: 1.2em;
-    padding: 2% 5%;
-    max-width: 50%;
-    margin: 0 auto;
-    color: #111;
-}
-
-h1, h4 {
-    text-align: center;
-}
-
-hr {
-  height: 1px;
-  line-height: 1px;
-  border: none;
-  background: transparent url('../assets/hr.png') 50% 0 no-repeat;
-}
-
-footer {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    margin-top: 1em;
-    background: transparent url('../assets/hr.png') 50% 0 no-repeat;
-    font-weight: normal;
-}
 
 footer > p {
     font-size: .75em;
@@ -70,35 +43,4 @@ footer > p > a {
 footer > p > a:hover {
     text-decoration: underline;
     color: #111;
-}
-
-
-
-
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:1024px) and (min-width:481px) {
-    
-    body {
-        max-width: 75%;
-        margin: 0 auto;
-    }
-    
-}
-
-
-@media screen and (max-width:480px) {
-    
-    body {
-        max-width: 90%;
-        margin: 0 auto;
-        font-size: 1.1em;
-        line-height: 1.75em;
-    }
-    
-    h4 {
-        font-size: 0.9374em;
-    }
-    
 }
