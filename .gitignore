@@ -1,2 +1,5 @@
-_sites/
+_site/
 _drafts/
+
+*.swp
+
