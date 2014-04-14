@@ -1,1 +1,42 @@
-body{padding:0 5%}h1,h2{text-align:center;line-height:1.45em}h1{font-size:2.5em}h2{font-size:1.75em}h3{font-size:1.25em}p{padding-bottom:1em;font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:300}footer>p{font-size:.75em;text-align:center}footer>p>a{text-decoration:none;color:#111}footer>p>a:hover{text-decoration:underline;color:#111}
+/*
+ * Custom CSS for Highwire Shakespeare
+ * Written by Derek Peruo
+ * https://github.com/dperuo
+ *
+ * Released under the MIT License.
+ *
+ */
+body {
+  padding: 0 5%;
+}
+h1,
+h2 {
+  text-align: center;
+  line-height: 1.45em;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.25em;
+}
+p {
+  padding-bottom: 1em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+footer > p {
+  font-size: .75em;
+  text-align: center;
+}
+footer > p > a {
+  text-decoration: none;
+  color: #111;
+}
+footer > p > a:hover {
+  text-decoration: underline;
+  color: #111;
+}
