@@ -27,7 +27,8 @@ body {
     padding: 0 5%;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     line-height: 1.45em;
 }
@@ -51,17 +52,18 @@ p {
 
 
 
-footer > p {
-    font-size: .75em;
-    text-align: center;
+footer {
+    p {
+        font-size: .75em;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: #111;
+            &:hover {
+                text-decoration: underline;
+                color: #111;
+            }
+        }
+    }
 }
 
-footer > p > a {
-    text-decoration: none;
-    color: #111;
-}
-
-footer > p > a:hover {
-    text-decoration: underline;
-    color: #111;
-}
