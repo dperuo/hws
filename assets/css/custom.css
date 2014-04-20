@@ -30,11 +30,9 @@ p {
 }
 a {
   text-decoration: none;
-  color: #111;
 }
 a:hover {
   text-decoration: underline;
-  color: #111;
 }
 footer p {
   font-size: .75em;
