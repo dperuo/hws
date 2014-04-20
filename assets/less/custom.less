@@ -50,20 +50,27 @@ p {
     .font-stack();
 }
 
+a {
+    text-decoration: none;
+    color: #111;
+    &:hover {
+        text-decoration: underline;
+        color: #111;
+    }
+}
 
 
 footer {
     p {
         font-size: .75em;
         text-align: center;
-        a {
-            text-decoration: none;
-            color: #111;
-            &:hover {
-                text-decoration: underline;
-                color: #111;
-            }
         }
-    }
+}
+
+code {
+    display: block;
+    width: 100%;
+    font-size: 60%;
+    overflow: auto;
 }
 

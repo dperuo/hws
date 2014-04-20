@@ -28,15 +28,21 @@ p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
+a {
+  text-decoration: none;
+  color: #111;
+}
+a:hover {
+  text-decoration: underline;
+  color: #111;
+}
 footer p {
   font-size: .75em;
   text-align: center;
 }
-footer p a {
-  text-decoration: none;
-  color: #111;
-}
-footer p a:hover {
-  text-decoration: underline;
-  color: #111;
+code {
+  display: block;
+  width: 100%;
+  font-size: 60%;
+  overflow: auto;
 }
