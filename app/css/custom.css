@@ -1,0 +1,41 @@
+/*
+ * Custom CSS for Highwire Shakespeare
+ * (c) 2015 Derek Peruo
+ * https://github.com/dperuo
+ *
+ * Released under the MIT License.
+ *
+ */
+
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size:     1em;
+  margin-bottom: 1em;
+}
+
+.mail-to {
+  display:    block;
+  text-align: center;
+  font-size:  0.8em;
+}
+
+.mail-to:hover {
+  text-decoration: none;
+}
