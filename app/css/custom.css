@@ -10,7 +10,7 @@
 /* http://css-tricks.com/snippets/css/better-helvetica */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 h1 {
@@ -21,13 +21,16 @@ h2 {
   font-size: 1.5em;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
 }
 
 h3 {
   font-size: 1.25em;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 p {
