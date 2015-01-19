@@ -38,6 +38,10 @@ p {
   margin-bottom: 1em;
 }
 
+footer {
+  margin-bottom: 1em;
+}
+
 .mail-to {
   display:    block;
   text-align: center;
